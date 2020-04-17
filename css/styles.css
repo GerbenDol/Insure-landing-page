@@ -122,6 +122,11 @@ h3 {
   h1.heading::before {
     display: none;
   }
+
+  .heading::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 
